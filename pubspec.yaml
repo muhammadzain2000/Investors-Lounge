@@ -1,0 +1,203 @@
+name: investors_lounge
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  intro_slider: ^3.0.3
+  introduction_screen: ^3.0.0
+  modal_bottom_sheet: ^2.0.0
+  persistent_bottom_nav_bar: ^4.0.2
+  #syncfusion_flutter_charts: ^19.1.54
+  syncfusion_flutter_charts: ^18.4.49
+  google_fonts: ^2.1.0
+  intl: ^0.17.0
+  fl_chart: ^0.12.0
+  buttons_tabbar: ^1.3.3
+  syncfusion_flutter_datagrid: ^18.4.49-beta
+  dotted_line: ^3.1.0
+  flutter_share: ^2.0.0
+  syncfusion_flutter_core: ^18.4.49
+  flutter_switch: ^0.3.2
+  responsive_sizer: ^3.0.5+1
+  flutter_slidable: ^1.2.0
+  readmore:
+  video_player: ^1.0.1
+  better_player: ^0.0.48
+  rflutter_alert: ^2.0.4
+  shadow: ^1.0.0
+  url_launcher:
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^1.2.0
+
+flutter_native_splash:
+
+  android: true
+  ios: true
+  web: true
+
+  #color: "#00FF00"
+  background_image: "images/splash.png"
+  #image: images/logo.png
+  fullscreen: true
+  #android12: true
+
+
+
+
+
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/logo.png
+    - images/intro1.png
+    - images/intro3.png
+    - images/intro2.png
+    - images/verifyemail.png
+    - images/news.png
+    - images/test.jpg
+    - images/dawn.png
+    - images/recorder.jpg
+    - images/news/Tribune.png
+    - images/news/business.png
+    - images/news/Dawn.png
+    - images/news/geo.png
+    - images/news/mettis.png
+    - images/news/news_grey.png
+    - images/news/Dawn_grey.png
+    - images/news/geo_grey.png
+    - images/news/mettis_grey.png
+    - images/news/Tribune_grey.png
+    - images/news/news.png
+    - images/mettis.jpg
+    - images/profit.jpg
+    - images/export.png
+    - images/export_resize.png
+    - images/punjab.png
+    - images/punjab2.png
+    - images/energy.jpg
+    - images/uae.jpg
+    - images/list_images/akd.png
+    - images/list_images/bull.jpg
+    - images/list_images/security.png
+    - images/list_images/statebank.png
+    - images/list_images/taliban.jpg
+    - images/list_images/topline.png
+    - images/list_images/vector.jpg
+    - images/research/image1.png
+    - images/research/image2.png
+    - images/research/image3.png
+    - images/research/image4.png
+    - images/research/image5.png
+    - images/research/image6.png
+    - images/filings/image1.png
+    - images/filings/image2.png
+    - images/filings/image3.png
+    - images/filings/image4.jpg
+    - images/filings/image5.png
+    - images/filings/image6.png
+    - images/filings/image7.png
+    - images/exclusive/image1.jpg
+    - images/exclusive/image2.jpg
+    - images/exclusive/image3.jpg
+    - images/exclusive/image4.jpg
+    - images/exclusive/image5.jpg
+    - images/exclusive/image6.jpg
+    - images/alliedbank.jpg
+    - images/research/faujifoods.png
+    - images/raast.png
+    - images/news/petrolhike.jpg
+    - images/random.jpg
+    - images/volume_leaders/ogdc.png
+    - images/volume_leaders/hbl.png
+    - images/volume_leaders/hubco.png
+    - images/volume_leaders/engro.png
+    - images/volume_leaders/suzuki.png
+    - images/volume_leaders/pso.png
+    - images/volume_leaders/trg.png
+    - images/volume_leaders/trg.jpg
+    - images/volume_leaders/searle.png
+    - images/watchlist/watchlistlogo.png
+    - images/list_images/bull.png
+    - images/instructor/facebook.png
+    - images/instructor/twitter.png
+    - images/instructor/linkedin.png
+    - images/education/moneymindset.jpg
+    - images/education/stockinvesting.jpg
+    - images/education/leaguelogo.png
+    - images/league/leaguelogo.png
+    - images/league/leaguelogo.jpg
+    - images/league/istock.png
+    - images/league/iba.jpg
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+#        - asset: fonts/Schyler-Italic.ttf
+#          style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
